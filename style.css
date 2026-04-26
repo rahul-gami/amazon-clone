@@ -1,0 +1,1026 @@
+*{
+    margin: 0px;
+    padding:0px;
+    border: border-box;
+    font-family: arial,sans-serif;
+}
+
+#divone
+{
+    width:100%;
+    height:60px;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    
+   
+}
+
+#amazonlogo
+{
+    height: 36px;
+    width: 100px;
+    position:relative;
+    top:15px;
+    left:6px;
+    padding-left: 3px;
+    padding-right: 2px;
+}
+
+.innerdiv
+{
+width:114px;
+height: 50px;
+position: relative;
+left:12px;
+top:3px;
+}
+
+.innerdiv:hover
+{
+   border: 1px solid white;
+}
+
+#locationdiv
+{
+    height : 50px;
+    width:90px;
+    position: relative;
+    top: 5px;
+    left:12px;
+    align-items: center;
+    
+}
+
+#locationdiv:hover
+{
+    border: 1px solid white;
+}
+#locationlogo
+{
+    height:25px;
+    width:25px;
+    position: relative;
+    top:18px;
+    left:10px;
+}
+
+#deliverto
+{
+    color:#cccccc;
+    font-size: 12px;
+    font-weight:500;
+    position: absolute;
+    left: 33px;
+    bottom: 24px;
+    font-family: arial,sans-serif;
+ 
+}
+#india
+{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight:bold;
+    position: absolute;
+    left: 33px;
+    bottom: 10px;
+    font-family: arial,sans-serif;
+}
+#searchall
+{
+    width:900px;
+    height: 60px;
+    position: relative;
+    left:13px;
+    display: flex;
+    align-items: center;
+}
+
+#search-select
+{
+    height:39px;
+    width: 50px;
+    position:relative;
+    left:10px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+     border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+
+   
+}
+
+.searchamazon
+{
+    position: relative;
+    left: 9.5px;
+    height:35px;
+    width: 790px;
+}
+
+.searchamazon::placeholder
+{
+    position: relative;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#button
+{
+    height:37.6px;
+    width: 40px;
+    position: relative;
+    left: 8.7px;
+    display: block;
+    background-color: rgb(245, 189, 86);
+    border: none;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+
+#magnifying
+{
+    height:18px;
+    width: auto;
+}
+
+#language
+{
+    width:50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left:25px;
+    display: flex;
+    align-items: center;
+}
+
+#language:hover
+{
+    border:1px solid white;
+}
+
+#usaflag
+{
+    width:auto;
+    height: 14px;
+    position:relative;
+    top:7px;
+    left:3px;
+}
+
+#englishlan
+{
+    position:relative;
+    top:7px;
+    left:7px;
+    font: size 14px;
+    font-family: Arial, sans-serif;
+    color:white;
+
+}
+
+#signinandaccount
+{
+    width:100px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left:50px;
+    
+}
+#signinandaccount:hover
+{
+    border:1px solid white;
+}
+#signin
+{
+    position:relative;
+    color:white;
+    font-size: 12px;
+    top:14px;
+    font-family: arial,sans-serif;
+    font-weight: 200;
+}
+#accountandlist
+{
+    position:relative;
+    color:white;
+    font-size: 13px;
+    bottom: 2px;
+    font-family: arial,sans-serif;
+
+}
+
+
+#return-and-order
+{
+    width:80px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left:55px;
+    align-items: center;
+    
+}
+#return-and-order:hover
+{
+    border:1px solid white;
+    position:relative;
+}
+#return
+{
+    position:relative;
+    color:white;
+    font-size: 12px;
+    top:14px;
+    left: 10px;
+    font-family: arial,sans-serif;
+    font-weight: 100;
+}
+#order
+{
+    position:relative;
+    color:white;
+    font-size: 14px;
+    bottom: 2px;
+    left: 10px;
+    font-family: arial,sans-serif;
+
+}
+
+#amazoncart
+{
+    width: 70px;
+    height: 50px;
+    position: relative;
+    left: 60px;
+    top:3px;
+}
+
+#amazoncart:hover
+{
+    border:1px solid white;
+}
+#amazoncartoption
+{
+
+    height: 105px;
+    width: auto;
+    position: relative;
+    right: 45px;
+    bottom: 25px;
+}
+#divtwo
+{
+    height: 39px;
+    width: 100%;
+    background-color: rgb(26, 36, 42);
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+
+.hamburger
+{
+    font-size:27px;
+    margin: 5px 0px 6px;
+    padding: 8px 5px; 
+    position:relative;
+    left: 8px;
+
+   
+}
+
+
+.all-text
+{
+    font :14px;
+    margin : 2px 0px 4px;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+}
+
+#deal
+{
+    font:14px;
+    margin: 2px 0px 4px;
+    padding: 8px 5px;  
+    font-family: Arial, sans-serif;
+    font-weight:lighter;
+}
+
+.primevideo
+{
+    font:10px;
+    margin: 2px 0px 4px;
+    padding: 8px 5px;  
+    font-family: Arial, sans-serif;
+}
+
+.registry
+{
+    font:10px;
+    margin: 2px 0px 4px;
+    padding: 8px 5px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.giftcards
+{
+    font:10px;
+    margin: 2px 0px 4px;
+    padding: 8px 5px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.customerservice
+{
+    font:10px;
+    margin: 2px 0px 4px;
+    padding: 8px 5px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sell
+{
+    font:10px;
+    margin: 2px 0px 4px;
+    padding: 8px 5px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#supermaindiv
+{   background-color: rgb(224, 224, 224);
+    position: relative;
+    min-height:100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+#amazonindia
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+#amazonin {
+    width: 1400px;
+    position: absolute;   
+    top: 63%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-family: Arial,sans-serif;
+    padding: 10px 14px;
+    text-align: center;
+    z-index: 10;   
+    gap:10px;
+    font-size: 14px;      
+}
+
+#clickhere:hover
+{
+  color:black;
+  text-decoration: underline;
+}
+
+
+#thirddiv
+{
+    position: absolute;
+    top :410px;
+    height:900px;
+    width: 100%;
+    display: inline-block;
+}
+
+#fujigaming
+{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#gameon
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 21px;
+    font-family: arial,sans-serif;
+}
+
+#fujiimg
+{
+    position: absolute;
+    top:50px
+}
+
+#shop_gaming
+{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #2162a1;
+    position: absolute;
+    top:380px;
+    left: 20px;
+    font-weight: 300;
+}
+#shop_gaming:hover
+{
+    color:black;
+}
+
+#homearrivals
+{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left: 395px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#shopless
+{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left: 755px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#homeessentials
+{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left:1117px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#newhome , #shopfashion ,#top-categories ,#fashiontrends2 ,.mainheading
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 21px;
+    font-family: arial,sans-serif;
+}
+
+ #homeessentials2
+ {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+ }
+
+#hotpot , #jeans , #cleaningtools ,#dressestwo ,.imgbox1
+{
+    position: absolute;
+    top:50px;
+    
+}
+
+#kitchenanddining ,#jeans2 ,#cleaningtools2 , #dressestwo2 ,.heading1
+{
+    position: absolute;
+    top:170px;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 300;
+}
+
+#paint ,#tops ,#homestore , #knits ,.imgbox2
+{
+   position: absolute;
+    top:50px;
+    left : 165px;
+}
+
+#homeimprovement , #tops2 ,#homestor2 ,#knits2 ,.heading2
+{
+    position: absolute;
+    top:50px;
+    left: 165px;
+    font-size: 12px;
+    top:170px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 300;
+}
+
+#decor , #dresses ,#homedecor ,#jackets ,.imgbox3
+{
+position: absolute;
+    top:220px;
+}
+
+#decor2 , #dresses2 ,#homedecor2 ,#jackets2 ,.heading3
+{
+    position: absolute;
+    top:50px;
+    font-size: 12px;
+    top:340px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 300;
+}
+
+#bedding , #shoes ,#secondbedding ,#jewelry ,.imgbox4
+{
+    position: absolute;
+    top:220px;
+    left : 165px;
+}
+
+#bedding2 ,#shoes2 ,#bedding3 ,#jewelry2 ,.heading4
+{
+    position: absolute;
+    top:50px;
+    left: 165px;
+    font-size: 12px;
+    top:340px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 300; 
+}
+
+#shoplatesthome , #seealldeals ,#discovermoreinhome ,.bottomheading
+{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #2162a1;
+    position: absolute;
+    top:380px;
+    left: 20px;
+    font-weight:300;
+}
+
+#shoplatesthome:hover , #seealldeals:hover ,#discovermoreinhome:hover ,.bottomheading:hover
+{
+    color:black;
+}
+
+#kitchen-appliance ,#levelupyourpc
+{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left: 35px;
+    top: 440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#cooker
+{
+    width: 280px;
+    height: 145px;
+    position: absolute;
+    padding-left:8px;
+    top: 80px;
+}
+
+#cooker2
+{
+    position: absolute;
+    top:230px;
+    left:20px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+}
+
+#coffee
+{
+    width: 95px;
+    height: 70px;
+    position: absolute;
+    padding-left:8px;
+    top: 260px;
+}
+
+#coffee2
+{
+    position: absolute;
+    top:330px;
+    left:20px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+}
+
+#pots-and-pans
+{
+   width: 90px;
+    height: 70px;
+    position: absolute;
+    padding-left:8px;
+    top: 260px;
+    left:110px;  
+}
+
+#pots-and-pans2
+{
+position: absolute;
+    top:330px;
+    left:118px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+}
+
+#kettles
+{
+    width: 85px;
+    height: 70px;
+    position: absolute;
+    padding-left:8px;
+    top: 260px;
+    left:208px;  
+}
+
+#kettles2
+{
+position: absolute;
+    top:330px;
+    left:216px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+}
+#kitchen-product
+{
+   font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #2162a1;
+    position: absolute;
+    top:380px;
+    left: 20px;
+    font-weight: 300; 
+}
+
+#kitchen-product:hover{
+    color: black;
+}
+
+#fashiontrends,#scoretoppc
+{
+    height: 420px;
+    width: 300px;
+    top: 440px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left: 395px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#homeupgrades ,#levelupbeauty
+{
+     height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left: 755px;
+     top: 440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#homeupgrades2
+{
+     position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+}
+
+#elevatedspaces ,#dealstopcategories
+{
+     height: 420px;
+    width: 300px;
+    background-color: white;
+    font: 21px;
+    position : absolute;
+    left:1117px;
+    top:440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scaleX(1.07);
+}
+
+#basketsandhampers
+{
+    position: absolute;
+    top:75px;
+}
+#basketsandhampers2
+{
+    position: absolute;
+    top:195px;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 300;
+}
+
+#hardware
+{
+   position: absolute;
+    top:75px; 
+    left : 165px;
+}
+
+#hardware2
+{
+     position: absolute;
+    top:195px;
+    left : 165px;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: black;
+    position: absolute;
+    font-weight: 300;
+}
+
+#giftimg
+{
+    -webkit-mask-image: linear-gradient(to top, transparent 0px, black 200px, black 1000px);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-image: linear-gradient(to top, transparent 0px, black 200px, black 1000px);
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+}
+
+#divfour
+{
+    width: 1425px;
+    height: 281px;
+    background-color: white;
+    position:relative;
+    top: 700px;
+    left: 22.5px;
+    align-items: center;
+}
+
+#bestsellers
+{
+    font-size: 21px;
+    position: absolute;
+    top:25px;
+    left:20px;
+}
+
+#bottles 
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:65px;
+}
+
+#photoframe
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:180px;
+}
+
+#hanger
+{
+   height: 150px;
+    width: auto;
+    position: absolute;
+    top: 80px;
+    left:370px; 
+}
+
+#levoit
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:650px; 
+}
+
+#stanley
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:830px; 
+}
+
+#stangleytwo
+{
+  height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:830px;   
+}
+
+#foodweight
+{
+     height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:970px;
+}
+
+#zulay
+{
+     height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:1200px;
+}
+
+
+#divfive
+{
+    width: 1425px;
+    height: 281px;
+    background-color: white;
+    position:relative;
+    top: 720px;
+    left: 22.5px;
+    align-items: center;
+}
+
+#bestsellersinbeauty
+{
+    font-size: 21px;
+    position: absolute;
+    top:25px;
+    left:20px;
+}
+
+#medicube 
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:30px;
+}
+
+#eos
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:250px;
+}
+
+#cottonswabs
+{
+   height: 210px;
+    width: auto;
+    position: absolute;
+    top: 55px;
+    left:400px; 
+}
+
+#cleantowels
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:550px; 
+}
+
+#cottonrounds
+{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:740px; 
+}
+
+#nizoral
+{
+  height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:830px;   
+}
+
+#essence
+{
+     height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:1040px;
+}
+
+#medicubetwo
+{
+     height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left:1200px;
+}
+
+#divsix
+{
+    width: 1159;
+    height: 450;
+    background-color: red;
+    position: relative;
+    top:300px;
+}
+
+#desktops
+{
+    position: absolute;
+    top:70px;
+}
+#desktops2
+{
+    position: absolute;
+    top:190px;
+}
+
+#laptopstwo2
+{
+    position: absolute;
+    top:190px;
+}
+
+#laptopstwo
+{
+   position: absolute;
+   top:70px; 
+}
