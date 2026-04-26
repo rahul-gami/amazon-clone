@@ -12,7 +12,8 @@ This is a simple Amazon homepage clone built using HTML and CSS.
 - CSS
 
 ## Preview
-(Add screenshot here)
+
+![Preview](screenshot.png)
 
 ## 🔗 Live Demo
 (https://github.com/rahul-gami)
